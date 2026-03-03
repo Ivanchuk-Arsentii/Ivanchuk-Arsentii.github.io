@@ -1,18 +1,42 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Starter</title>
-    <style>
-      body {background-color: Black;}
-      h1,h2,p {color:White;}
-    </style>
-  </head>
-  <body>
-    <div>
-      <h2>Test left</h2>
-    </div>
-    <div>
-      <h1>Test</h1>
-      <p>testing setting up github pages for th first time</p>
-    </div>
-  </body>
+<head>
+  <style>
+    body {
+      margin: 0;
+      font-size: 0;
+    }
+
+    .side {
+      display: inline-block;
+      height: 100vh;
+      vertical-align: top;
+      box-sizing: border-box;
+      padding: 20px;
+      font-size: 16px;
+
+    }
+
+    #left {
+      background: lightblue;
+      width: 25%;
+    }
+
+    #right {
+      background: lightgreen;
+      width: 75%;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="left" class="side">Left Side Test
+    <h2>Test left</h2>
+  </div>
+  <div id="right" class="side">Right Side Test
+    <h1>Test</h1>
+    <p>testing setting up github pages for th first time</p>
+  </div>
+</body>
+
 </html>
